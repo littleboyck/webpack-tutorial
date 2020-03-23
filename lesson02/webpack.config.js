@@ -1,5 +1,5 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var path = require('path');
+let HtmlWebpackPlugin = require('html-webpack-plugin');
+let path = require('path');
 
 module.exports = {
     entry:'./src/index.js',
@@ -7,5 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'buildIndex.js'
     },
-    plugins: [new HtmlWebpackPlugin()]
+    plugins: [
+        new HtmlWebpackPlugin()  //这将会产生一个包含以下内容的文件 dist/index.html
+    ]
 }

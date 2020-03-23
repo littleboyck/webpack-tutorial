@@ -1,1 +1,1 @@
-alert("hello webpack !!")
+console.log("hello webpack !!")

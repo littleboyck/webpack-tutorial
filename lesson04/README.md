@@ -1,3 +1,8 @@
+## js文件打包后随机生成hash值，解决文件缓存
+> filename: '[name]_[hash:7].js'
+> // name--> 指向entry对象的key名称 
+> // hash--> 随机生成7位哈希值
+
 ### Windows中创建文件 type nul
 `例如：type nul>home.js`
 
