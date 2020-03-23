@@ -1,6 +1,6 @@
 ## 单入口文件
 
-## 关于wepacl.config.js
+## 关于webpack.config.js
 
 1. webpack是用NODE.js写的 ,所以，语法要符合node规范
 
