@@ -9,5 +9,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
+        // name--> 指向entry对象的key名称 
     },
 }
