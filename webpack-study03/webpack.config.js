@@ -1,8 +1,13 @@
+let path = require('path')
 module.exports = {
-    entry:'.src/app.js',
+    entry:{
+        home:'./src/home.js',
+        login:'./src/login.js',
+        shopCard:'./src/shop_card.js'
+    },
     mode:'development',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'app_build.js'
+        filename: '[name].js'
     },
 }

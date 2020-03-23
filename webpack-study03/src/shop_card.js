@@ -1,0 +1,1 @@
+console.log("lesson03 shop_card.js")
