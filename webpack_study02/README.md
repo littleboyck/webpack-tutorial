@@ -29,6 +29,6 @@ path.resolve('foo/bar', '.baz/home','../ck/data')
     若是/xxxx方式，则是在当前根目录下追加xxx目录
 
 1. __dirname  获取当前文件所在的绝对路径
-2. [关于exports与module.exports区别]https://www.jianshu.com/p/c9b29520fc6e
+2. [关于exports与module.exports区别](https://www.jianshu.com/p/c9b29520fc6e)
 3. `console.log(module.exports == exports)  -->true`
 
