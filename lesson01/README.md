@@ -14,7 +14,7 @@
 >> E:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//切换到E盘  
 >>> mkdir webpack-test&nbsp;&nbsp;//创建webpack-test文件夹
 >>>> cd E:\webpack-test&nbsp;&nbsp;//进入此文件夹中
->>>>> **npm init** &nbsp;&nbsp;&nbsp;//初始化项目，用于管理项目文件。此时会自动创建package.json文件
+>>>>> **npm init -y** &nbsp;&nbsp;&nbsp;//初始化项目，用于管理项目文件。此时会自动创建package.json文件
 
 **第三步：**
 下载如下依赖 webpack 和 webpack-cli
